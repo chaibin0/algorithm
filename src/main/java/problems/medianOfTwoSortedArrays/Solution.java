@@ -1,4 +1,4 @@
-package medianOfTwoSortedArrays;
+package problems.medianOfTwoSortedArrays;
 
 import java.util.ArrayList;
 import java.util.List;

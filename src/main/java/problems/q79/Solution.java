@@ -44,7 +44,6 @@ class Solution {
         }
 
         boolean answer;
-        int index = currentRow * this.n + currentColumn;
 
         visited[currentRow][currentColumn] = true;
 

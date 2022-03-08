@@ -4,11 +4,9 @@ class Solution {
 
     private StringBuilder sb;
     private int[] dp;
-    private int answer;
 
     public int numDecodings(String s) {
 
-        this.answer = 0;
         this.sb = new StringBuilder(s);
         this.dp = new int[s.length() + 2];
         this.dp[0] = 1;

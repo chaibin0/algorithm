@@ -14,7 +14,7 @@ public class Solution {
     }
 
     private int solve(int n) {
-        if (n <= 2) {
+        if (n <= 2 || this.cache[n] != 0) {
             return this.cache[n];
         }
 
@@ -26,6 +26,7 @@ public class Solution {
             total += (left * right);
         }
 
+        this.cache[n] = total;
         return total;
     }
 }

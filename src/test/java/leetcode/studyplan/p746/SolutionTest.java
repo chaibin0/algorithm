@@ -1,9 +1,9 @@
 package leetcode.studyplan.p746;
 
+import leetcode.problems.p746.Solution;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class SolutionTest {
 

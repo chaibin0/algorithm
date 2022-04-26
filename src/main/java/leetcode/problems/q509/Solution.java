@@ -1,4 +1,4 @@
-package leetcode.studyplan.q509;
+package leetcode.problems.q509;
 
 class Solution {
 

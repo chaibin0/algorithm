@@ -1,4 +1,4 @@
-package leetcode.studyplan.p198;
+package leetcode.problems.p198;
 
 class Solution {
 

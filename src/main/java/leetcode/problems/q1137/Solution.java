@@ -1,4 +1,4 @@
-package leetcode.studyplan.q1137;
+package leetcode.problems.q1137;
 
 class Solution {
     public int tribonacci(int n) {

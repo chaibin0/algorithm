@@ -1,4 +1,4 @@
-package leetcode.studyplan.p746;
+package leetcode.problems.p746;
 
 class Solution {
 

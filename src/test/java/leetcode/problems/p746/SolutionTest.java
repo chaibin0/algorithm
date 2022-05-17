@@ -1,4 +1,4 @@
-package leetcode.studyplan.p746;
+package leetcode.problems.p746;
 
 import leetcode.problems.p746.Solution;
 import org.junit.jupiter.api.Test;

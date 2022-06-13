@@ -30,7 +30,7 @@ class Solution {
                     continue;
                 }
 
-                if (image[nextYpos][nextXpos] != color || image[nextYpos][nextXpos] == newColor) {
+                if (image[nextYpos][nextXpos] != color) {
                     continue;
                 }
 

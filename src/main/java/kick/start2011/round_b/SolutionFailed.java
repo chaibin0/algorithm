@@ -66,7 +66,8 @@ public class SolutionFailed {
 
             rowLength++;
             columnLength = 1;
-            for (int j = c + 1; j < C; j++) {
+            int maxRowLength = rowLength * 2;
+            for (int j = c + 1; j < maxRowLength; j++) {
                 if (graph[i][j] != 1) {
                     break;
                 }
@@ -88,7 +89,9 @@ public class SolutionFailed {
 
             rowLength++;
             columnLength = 1;
-            for (int j = c - 1; j >= 0; j--) {
+            int maxRowLength = rowLength * 2;
+
+            for (int j = c - 1; j >= C - maxRowLength; j--) {
                 if (graph[i][j] != 1) {
                     break;
                 }
@@ -109,8 +112,9 @@ public class SolutionFailed {
             }
 
             rowLength++;
+            int maxRowLength = rowLength * 2;
             columnLength = 1;
-            for (int j = c - 1; j >= 0; j--) {
+            for (int j = c - 1; j >= C - maxRowLength; j--) {
                 if (graph[i][j] != 1) {
                     break;
                 }
@@ -132,7 +136,8 @@ public class SolutionFailed {
 
             rowLength++;
             columnLength = 1;
-            for (int j = c + 1; j < C; j++) {
+            int maxRowLength = rowLength * 2;
+            for (int j = c + 1; j < maxRowLength; j++) {
                 if (graph[i][j] != 1) {
                     break;
                 }

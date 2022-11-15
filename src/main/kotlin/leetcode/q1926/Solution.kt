@@ -18,6 +18,7 @@ class Solution {
 
         val dp = Array(m) { IntArray(n) }
         val visit = Array(m) { BooleanArray(n) }
+
         val queue: Queue<Position> = LinkedList()
 
         visit[entrance[0]][entrance[1]] = true

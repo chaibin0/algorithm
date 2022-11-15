@@ -4,7 +4,7 @@ class Solution {
     fun isSubsequence(s: String, t: String): Boolean {
 
         var index = 0
-        if (s.isNullOrEmpty()) {
+        if (s.isEmpty()) {
             return true
         }
 

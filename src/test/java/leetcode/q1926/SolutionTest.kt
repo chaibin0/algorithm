@@ -1,5 +1,6 @@
 package leetcode.q1926
 
+import io.kotest.core.spec.style.BehaviorSpec
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
 

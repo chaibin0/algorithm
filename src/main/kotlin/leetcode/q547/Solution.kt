@@ -1,6 +1,7 @@
 package leetcode.q547
 
 class Solution {
+
     private lateinit var visited: BooleanArray
     var n: Int = 0
 

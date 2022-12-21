@@ -39,7 +39,7 @@ class Solution {
                     continue
                 }
 
-                if (dp[nextCoin] != 0 && dp[nextCoin] <= (dp[currentValue] + 1)) {
+                if (dp[nextCoin] != 0) {
                     continue
                 }
 

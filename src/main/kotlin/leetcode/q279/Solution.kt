@@ -1,6 +1,6 @@
 package leetcode.q279
 
-import kotlin.math.max
+import kotlin.math.min
 import kotlin.math.sqrt
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
                 if (value > i) {
                     break
                 }
-                dp[i] = max(dp[i], dp[i - value] + 1)
+                dp[i] = min(dp[i], dp[i - value] + 1)
             }
         }
 

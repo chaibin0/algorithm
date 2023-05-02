@@ -4,7 +4,7 @@ import java.util.PriorityQueue
 import kotlin.math.max
 
 
-class SolutionFail {
+class Solution {
     fun countSubarrays(nums: IntArray, minK: Int, maxK: Int): Long {
         var answer = 0L
 
@@ -18,7 +18,7 @@ class SolutionFail {
 
             if (num < minK || num > maxK) {
 
-                while (tail <= num && minIndexPq.isNotEmpty() && maxIndexPq.isNotEmpty()) {
+                while (tail <= index && minIndexPq.isNotEmpty() && maxIndexPq.isNotEmpty()) {
 
                     val minIndex = minIndexPq.peek()
                     val maxIndex = maxIndexPq.peek()
@@ -54,7 +54,9 @@ class SolutionFail {
             }
         }
 
-        while (tail < nums.size && minIndexPq.isNotEmpty() && maxIndexPq.isNotEmpty()) {
+        println(answer)
+
+        while (tail <= nums.size && minIndexPq.isNotEmpty() && maxIndexPq.isNotEmpty()) {
 
             val minIndex = minIndexPq.peek()
             val maxIndex = maxIndexPq.peek()
@@ -75,7 +77,7 @@ class SolutionFail {
 
             tail++
         }
-
+        println(answer)
         return answer
     }
 }

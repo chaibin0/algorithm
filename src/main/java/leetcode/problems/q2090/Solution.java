@@ -13,7 +13,7 @@ class Solution {
         for (int i = 0; i < end && i < nums.length; i++) {
             totalElements += nums[i];
         }
-        // 7 4 3
+
         for (int i = 0; i < nums.length; i++, start++, end++) {
 
             if (end >= nums.length) {

@@ -2,6 +2,7 @@ package leetcode.problems.q1999
 
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
+import leetcode.q1999.Solution
 
 class SolutionTest : FunSpec({
 

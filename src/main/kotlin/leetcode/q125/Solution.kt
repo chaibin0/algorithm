@@ -1,4 +1,4 @@
-package leetcode.problems.q125
+package leetcode.q125
 
 class Solution {
     fun isPalindrome(s: String): Boolean {

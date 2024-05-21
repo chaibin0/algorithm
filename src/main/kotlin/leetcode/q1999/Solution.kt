@@ -1,4 +1,4 @@
-package leetcode.problems.q1999
+package leetcode.q1999
 
 import kotlin.math.min
 

@@ -8,7 +8,6 @@ class Solution {
 
         for (i in lo..hi) {
             val result = calculate(i)
-            println(result)
             order.add(result to i)
         }
 

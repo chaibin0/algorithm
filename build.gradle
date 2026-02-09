@@ -26,15 +26,3 @@ dependencies {
     testImplementation 'io.kotest:kotest-runner-junit5:5.8.1'
 
 }
-
-compileKotlin {
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
-    }
-}
-
-compileTestKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
-}

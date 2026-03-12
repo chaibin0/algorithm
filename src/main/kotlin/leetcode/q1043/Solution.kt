@@ -4,11 +4,11 @@ import kotlin.math.max
 
 class Solution {
 
-    lateinit var dp: Array<IntArray>
+    lateinit var dp: IntArray
     lateinit var nums: IntArray
     var k: Int = 0
     fun maxSumAfterPartitioning(arr: IntArray, k: Int): Int {
-        this.dp = Array(arr.size) { IntArray(k + 1) { Int.MIN_VALUE } }
+        this.dp = IntArray(arr.size) { Int.MIN_VALUE }
         this.nums = arr
         this.k = k
         return dfs(0)
@@ -20,8 +20,8 @@ class Solution {
             return 0
         }
 
-        if (dp[index][k] != Int.MIN_VALUE) {
-            return dp[index][k]
+        if (dp[index] != Int.MIN_VALUE) {
+            return dp[index]
         }
 
         var maxValue = 0
@@ -34,7 +34,7 @@ class Solution {
             i++
         }
 
-        dp[index][k] = total
+        dp[index] = total
         return total
     }
 }

@@ -3,7 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version "2.1.21"
 }
 
-group 'org.example'
+group 'chaibin.algorithm'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.17

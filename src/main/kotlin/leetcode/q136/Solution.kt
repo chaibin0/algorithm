@@ -10,7 +10,7 @@ class Solution {
                 numbers.remove(num)
                 continue
             }
-
+            
             numbers.add(num)
         }
 
